@@ -15,7 +15,7 @@ After the CPU hardware is designed, I write MIPS assembly programs to test it. T
 ```bash
 /cpu
 ├── /src
-│   ├── alu.v                    # ALU module (Verilog)
+│   ├── alu.v                     # ALU module (Verilog)
 │   ├── control_unit.v            # Control unit module (Verilog)
 │   ├── data_memory.v             # Data memory module (Verilog)
 │   ├── instruction_memory.v      # Instruction memory module (Verilog)
@@ -35,5 +35,5 @@ After the CPU hardware is designed, I write MIPS assembly programs to test it. T
 │   ├── test_beq.asm              # MIPS assembly test program (branching)
 │   └── test_complex.asm          # More complex MIPS assembly program
 ├── Makefile                      # Build and simulation instructions
-└── README.md                     # Documentation for your project
+└── README.md                     # Documentation
 ```
