@@ -1,6 +1,6 @@
 ## CPU
 
-*   a model of how the CPU processes instructions, simulating the internal workings of a MIPS CPU (or similar architecture). this is more about designing the hardware logic that handles the fetch, decode, and execute stages, as well as managing registers, memory access, and other key components.
+*   A model of how the CPU processes instructions, simulating the internal workings of a MIPS CPU (or similar architecture). this is more about designing the hardware logic that handles the fetch, decode, and execute stages, as well as managing registers, memory access, and other key components.
 
 *   When I’m designing a MIPS CPU, I need to implement the hardware components using Verilog and test the CPU with MIPS assembly programs. My project is organized into two main parts: the hardware design in Verilog and the software testing using MIPS assembly.
 
