@@ -1,13 +1,13 @@
 module control_unit (
-    input [3:0] opcode,
-    output reg reg_dst,
-    output reg alu_src,
-    output reg mem_to_reg,
-    output reg reg_write,
-    output reg mem_read,
-    output reg mem_write,
-    output reg branch,
-    output reg [2:0] alu_op
+    input [5:0] opcode,
+    output reg_dst,
+    output alu_src,
+    output mem_to_reg,
+    output reg_write,
+    output mem_read,
+    output mem_write,
+    output branch,
+    output [2:0] alu_op
 );
 
     always @(*) begin
