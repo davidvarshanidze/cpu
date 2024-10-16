@@ -40,6 +40,6 @@ module reg_file_tb;
         #10 $stop;
     end
 
-    always #5 clk = ~clk;  // Clock period is 10 time units
+    always #5 clk = ~clk;
 
 endmodule
