@@ -68,7 +68,7 @@ module mips_cpu (
 
     // Data Memory
     data_memory DM (
-        .address(alu_result[7:0]), // Only the lower 8 bits for address
+        .address(alu_result),
         .write_data(reg_data2),
         .mem_write(mem_write),
         .mem_read(mem_read),
