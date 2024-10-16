@@ -75,7 +75,6 @@ module mips_cpu (
         .read_data(mem_data)
     );
 
-    // PC Branch target calculation
     assign branch_target = pc_out + (sign_ext_imm << 2);
     assign pc_next = branch && zero ? branch_target : pc_out + 4;
 
