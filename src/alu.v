@@ -7,9 +7,9 @@ module alu(
     );
     reg [7:0] ALU_Result;
     wire [8:0] tmp;
-    assign ALU_Out = ALU_Result; // ALU out
+    assign ALU_Out = ALU_Result;
     assign tmp = {1'b0,A} + {1'b0,B};
-    assign CarryOut = tmp[8]; // Carryout flag
+    assign CarryOut = tmp[8];
     always @(*)
     begin
         case(alu_op)
