@@ -21,7 +21,7 @@ module mips_cpu (
 
     // Instruction Memory
     instruction_memory IM (
-        .address(pc_out[7:0]),  // Only the lower 8 bits for address
+        .address(pc_out[7:0]),
         .instruction(instruction)
     );
     assign opcode = instruction[31:26];
